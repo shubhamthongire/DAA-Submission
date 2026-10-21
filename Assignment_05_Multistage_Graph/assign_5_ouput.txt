@@ -1,0 +1,37 @@
+f ($?) { g++ multistage.cpp -o multistage } ; if ($?) { .\multistage }
+Enter number of stages: 5
+Enter number of nodes in each stage: 1 2 2 2 1
+Enter number of edges: 9
+Enter edges (from to cost):
+0 1 2   
+0 2 1   
+1 3 2
+1 4 5
+2 3 6
+2 4 2
+3 5 3
+4 5 4
+5 7 2
+
+Minimum costs from Stage 0:
+Node 0: 9.00
+
+Enter number of delivery requests: 1
+Enter source for request 1: 0
+Shortest path: 0 -> 1 -> 3 -> 5 -> 7
+Minimum cost: 9.00
+
+Enter number of live updates (0 to skip): 1
+Enter edge (from to multiplier): 1 3 3
+Edge updated successfully.
+
+Minimum costs from Stage 0:
+Node 0: 9.00
+Enter source for updated path (-1 to skip): 0
+Shortest path: 0 -> 2 -> 4 -> 5 -> 7
+Minimum cost: 9.00
+
+Final shortest paths:
+Shortest path: 0 -> 2 -> 4 -> 5 -> 7
+Minimum cost: 9.00
+PS C:\DAA Assignment\Assignment no 5> 
