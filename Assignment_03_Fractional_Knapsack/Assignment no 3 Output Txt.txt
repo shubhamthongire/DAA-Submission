@@ -1,0 +1,97 @@
+PS C:\AC c++ and Dsa\DAA> cd "c:\AC c++ and Dsa\DAA\" ; if ($?) { g++ Fractional.cpp -o Fractional } ; if ($?) { .\Fractional }   
+==============================================================
+       EMERGENCY RELIEF SUPPLY DISTRIBUTION
+              FRACTIONAL KNAPSACK
+==============================================================
+
+Enter number of relief items: 4
+
+--------------------------------------------------------------
+Item #1
+--------------------------------------------------------------
+Enter item name: Water
+Enter weight (kg): 10
+Enter utility value: 100
+Is item divisible? (1 = Yes, 0 = No): 1
+Enter priority (1 = High, 2 = Medium, 3 = Low): 1
+
+--------------------------------------------------------------
+Item #2
+--------------------------------------------------------------
+Enter item name: Food
+Enter weight (kg): 20
+Enter utility value: 50
+Is item divisible? (1 = Yes, 0 = No): 2
+Enter priority (1 = High, 2 = Medium, 3 = Low): 2
+
+--------------------------------------------------------------
+Item #3
+--------------------------------------------------------------
+Enter item name: Medicine
+Enter weight (kg): 30
+Enter utility value: 60
+Is item divisible? (1 = Yes, 0 = No): 2
+Enter priority (1 = High, 2 = Medium, 3 = Low): 2
+
+--------------------------------------------------------------
+Item #4
+--------------------------------------------------------------
+Enter item name: Fruits
+Enter weight (kg): 20
+Enter utility value: 40
+Is item divisible? (1 = Yes, 0 = No): 2
+Enter priority (1 = High, 2 = Medium, 3 = Low): 1
+
+Enter maximum boat capacity (kg): 100
+
+==============================================================
+        ITEMS SORTED BY VALUE / WEIGHT RATIO
+==============================================================
+Item                Weight      Value       Ratio       Priority    Type           
+--------------------------------------------------------------
+Water               10          100         10.00       1           Divisible      
+Food                20.00       50.00       2.50        2           Indivisible    
+Medicine            30.00       60.00       2.00        2           Indivisible    
+Fruits              20.00       40.00       2.00        1           Indivisible    
+
+==============================================================
+                 SELECTED RELIEF ITEMS
+==============================================================
+
+Water -> FULL
+Weight Taken : 10.00 kg
+Utility      : 100.00 units
+Ratio        : 10.00
+Priority     : 1
+
+Food -> FULL
+Weight Taken : 20.00 kg
+Utility      : 50.00 units
+Ratio        : 2.50
+Priority     : 2
+
+Medicine -> FULL
+Weight Taken : 30.00 kg
+Utility      : 60.00 units
+Ratio        : 2.00
+Priority     : 2
+
+Fruits -> FULL
+Weight Taken : 20.00 kg
+Utility      : 40.00 units
+Ratio        : 2.00
+Priority     : 1
+
+==============================================================
+                     FINAL REPORT
+==============================================================
+Total Weight Carried : 80.00 kg
+Maximum Utility      : 250.00 units
+==============================================================
+
+Algorithm: Fractional Knapsack using Greedy Method
+Time Complexity: O(n log n)
+Space Complexity: O(n)
+
+==============================================================
+PS C:\AC c++ and Dsa\DAA> 
