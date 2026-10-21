@@ -1,0 +1,27 @@
+PS C:\AC c++ and Dsa\DAA> cd "c:\AC c++ and Dsa\DAA\" ; if ($?) { g++ Dijisktra_4.cpp -o Dijisktra_4 } ; if ($?) { .\Dijisktra_4 }
+Enter number of intersections (vertices): 6
+Enter number of roads (edges): 9
+Enter edges (u v w):
+0 1 10
+0 2 5
+1 2 2
+1 3 1
+2 3 9
+2 4 2
+3 4 4
+3 5 7
+4 5 6
+Enter number of hospitals: 1
+Enter hospital nodes: 5
+Enter ambulance starting location: 0
+
+Initial shortest travel time: 13 minutes
+Path: 0 -> 2 -> 4 -> 5
+Nearest hospital: 5
+
+Enter edge to update (u v newWeight):   2 3 4
+
+After traffic update:
+New shortest travel time: 13 minutes
+New path: 0 -> 2 -> 4 -> 5
+Nearest hospital: 5
