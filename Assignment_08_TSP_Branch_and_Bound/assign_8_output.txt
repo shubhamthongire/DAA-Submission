@@ -1,0 +1,23 @@
+PS C:\DAA Assignment\Assignment no 8> cd "c:\DAA Assignment\Assignment no 8\" ; if ($?) { g++ TSP.cpp -o TSP } ; if ($?) { .\TSP }
+Enter number of cities: 4
+Enter the cost matrix (-1 for no direct route):
+10
+20
+30
+30
+30
+60
+40
+40
+20
+101
+10
+101
+10
+30
+40
+34
+
+Minimum tour cost: 120
+Optimal route: City 1 -> City 2 -> City 4 -> City 3 -> City 1
+PS C:\DAA Assignment\Assignment no 8> 
