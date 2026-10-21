@@ -1,0 +1,23 @@
+PS C:\DAA Assignment\Assignment no 7> cd "c:\DAA Assignment\Assignment no 7\" ; if ($?) { g++ graphColoring.cpp -o graphColoring } ; if ($?) { .\graphColoring }
+
+Greedy Coloring - Exam slots: 3
+Course  Slot    Room
+C1      Slot 1  R1
+C2      Slot 2  R2
+C3      Slot 3  R3
+C4      Slot 1  R3
+
+DSATUR - Exam slots: 3
+Course  Slot    Room
+C1      Slot 1  R1
+C2      Slot 2  R2
+C3      Slot 3  R3
+C4      Slot 1  R3
+
+Welsh-Powell - Exam slots: 3
+Course  Slot    Room
+C1      Slot 1  R1
+C2      Slot 2  R2
+C3      Slot 3  R3
+C4      Slot 1  R3
+PS C:\DAA Assignment\Assignment no 7> 
